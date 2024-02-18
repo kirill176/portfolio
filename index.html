@@ -1,106 +1,475 @@
 <!DOCTYPE html>
-
-<html lang="ru">
-
-<head>
-
-  <title>Resume</title>
-  <meta name="" content="">
-
-  <link rel="stylesheet" href="css/style.css">
-
-  <link rel="shortcut icon" href="img/icon.ico">
-
-  <meta charset="UTF-8">
-
-  <meta name="viewport" content="with=device-widths, initial-scale=1.0, maximum-scale=1.0, user-scalable">
-
-  <meta name="format-detection" content="telephone=no">
-
-  <meta name="desvription" content="Что такое мета теги и для чего они нужны">
-
-  <meta name="keywords" content="">
-
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" href="img/logo.png">
+    <link rel="stylesheet" href="css/style.min.css?_v=20240219014137">
+    <title>Portfolio</title>
 </head>
 
-<body>
-  <div class="wrapper">
-    <div class="header">
-      <div class="header__text">
-        <h1>Resume</h1>
-      </div>
-      <div class="header__menu">
-        <a href="">Home</a>
-        <a href="">About</a>
-        <a href="">Service</a>
-        <a href="">Work</a>
-        <a href="">Resume</a>
-        <a href="">Blog</a>
-        <a href="">Contact</a>
-      </div>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+    <div class="container">
+        <div class="header__body">
+            <a href="" class="header__logo">Portfolio</a>
+            <nav class="header__menu">
+                <ul class="header__list">
+                    <li>
+                        <a href="" id="home" class="header__link active">Дім</a>
+                    </li>
+                    <li>
+                        <a href="" id="about" class="header__link">Про мене</a>
+                    </li>
+                    <li>
+                        <a href="" id="technologies" class="header__link">Технології</a>
+                    </li>
+                    <li>
+                        <a href="" id="projects" class="header__link">Мої проекти</a>
+                    </li>
+                    <li>
+                        <a href="" id="contacts" class="header__link">Контакти</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </div>
-    <div class="body">
-      <div class="body__text">
-        <h2>Я WEB Розробник</h2>
-        <p>Мене звати Кирил Сєдих, я IT - спеціаліст, займаюсь розробкою сайтів.
-        </p>
-      </div>
-      <div class="body__image">
-        <img src="img/programmer.png" alt="">
-      </div>
+</header>
+      <main class="main">
+        <div class="container">
+          <div class="about">
+            <div class="about__line">
+              <div class="circle"></div>
+              <div class="line"></div>
+            </div>
+            <div class="about__content">
+              <div class="about__text">
+                <h2>Я WEB Розробник</h2>
+                <p>
+                  Мене звати Кирил Сєдих, я IT - спеціаліст, займаюсь розробкою
+                  сайтів.
+                </p>
+              </div>
+              <div class="about__image">
+                <picture><source srcset="img/my.webp" type="image/webp"><img src="img/my.png" alt="" /></picture>
+              </div>
+            </div>
+          </div>
+
+          <div class="tehnologies">
+            <div class="tehnologies__line">
+              <div class="code"><></div>
+              <div class="line"></div>
+            </div>
+            <div class="tehnologies__content">
+              <div class="tehnologies__title">
+                <h2>Технології</h2>
+              </div>
+              <div class="tehnologies__cards">
+                <div class="card">
+                  <div class="card__image">
+                    <picture><source srcset="img/html.webp" type="image/webp"><img src="img/html.png" alt="" /></picture>
+                  </div>
+                  <p>HTML5</p>
+                </div>
+                <div class="card">
+                  <div class="card__image">
+                    <picture><source srcset="img/css.webp" type="image/webp"><img src="img/css.png" alt="" /></picture>
+                  </div>
+
+                  <p>CSS3</p>
+                </div>
+                <div class="card">
+                  <div class="card__image">
+                    <picture><source srcset="img/sass.webp" type="image/webp"><img src="img/sass.png" alt="" /></picture>
+                  </div>
+
+                  <p>Sass/Scss</p>
+                </div>
+                <div class="card">
+                  <div class="card__image">
+                    <picture><source srcset="img/js.webp" type="image/webp"><img src="img/js.png" alt="" /></picture>
+                  </div>
+                  <p>Java Script</p>
+                </div>
+                <div class="card">
+                  <div class="card__image">
+                    <img src="img/React-icon.svg.png" alt="" />
+                  </div>
+                  <p>React</p>
+                </div>
+                <div class="card">
+                  <div class="card__image">
+                    <img
+                      src="img/Visual_Studio_Code_1.35_icon.svg.png"
+                      alt=""
+                    />
+                  </div>
+                  <p>VS Code</p>
+                </div>
+                <div class="card">
+                  <div class="card__image">
+                    <img src="img/Git_icon.svg.png" alt="" />
+                  </div>
+
+                  <p>Git</p>
+                </div>
+                <div class="card">
+                  <div class="card__image">
+                    <picture><source srcset="img/github.webp" type="image/webp"><img src="img/github.png" alt="" /></picture>
+                  </div>
+
+                  <p>Git Hub</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="projects">
+            <div class="projects__line">
+              <div class="img">
+                <picture><source srcset="img/work.webp" type="image/webp"><img src="img/work.png" alt="" class="work" /></picture>
+              </div>
+              <div class="line"></div>
+            </div>
+            <div class="projects__content">
+              <div class="projects__title">
+                <h2>Мої проекти</h2>
+              </div>
+              <div class="projects__cards">
+                <div class="card">
+                  <div class="image">
+                    <picture><source srcset="img/carstore.webp" type="image/webp"><img src="img/carstore.png" alt="" /></picture>
+                  </div>
+                  <h5>Інтернет магазин авто-запчастин</h5>
+                  <p>
+                    This is sample project description random things are here in
+                    description This is sample project lorem ipsum generator for
+                    dummy content
+                  </p>
+                  <p class="stack">
+                    <b>Tech stack : </b>HTML, JavaScript, SASS, React
+                  </p>
+                  <div class="git-links">
+                    <a
+                      href="https://kirill176.github.io/carstore/"
+                      target="_blank"
+                    >
+                      <svg
+                        width="20"
+                        height="20"
+                        viewBox="0 0 20 20"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M11.2864 8.71333C10.6038 8.03103 9.67822 7.64774 8.71309 7.64774C7.74797 7.64774 6.82235 8.03103 6.13976 8.71333L3.56559 11.2867C2.88299 11.9693 2.49951 12.8951 2.49951 13.8604C2.49951 14.8258 2.88299 15.7516 3.56559 16.4342C4.24819 17.1168 5.174 17.5002 6.13934 17.5002C7.10469 17.5002 8.03049 17.1168 8.71309 16.4342L9.99976 15.1475"
+                          stroke-width="1.66667"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M8.71289 11.2867C9.39548 11.969 10.3211 12.3523 11.2862 12.3523C12.2513 12.3523 13.177 11.969 13.8596 11.2867L16.4337 8.71334C17.1163 8.03074 17.4998 7.10493 17.4998 6.13959C17.4998 5.17424 17.1163 4.24844 16.4337 3.56584C15.7511 2.88324 14.8253 2.49976 13.86 2.49976C12.8946 2.49976 11.9688 2.88324 11.2862 3.56584L9.99956 4.8525"
+                          stroke-width="1.66667"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                      LivePreview
+                    </a>
+                    <a
+                      href="https://github.com/kirill176/carstore"
+                      target="_blank"
+                    >
+                      <svg
+                        class="git-svg"
+                        width="30"
+                        height="30"
+                        viewBox="0 0 30 30"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M15 0C6.7125 0 0 6.7125 0 15C0 21.6375 4.29375 27.2437 10.2563 29.2313C11.0063 29.3625 11.2875 28.9125 11.2875 28.5188C11.2875 28.1625 11.2688 26.9813 11.2688 25.725C7.5 26.4188 6.525 24.8062 6.225 23.9625C6.05625 23.5312 5.325 22.2 4.6875 21.8438C4.1625 21.5625 3.4125 20.8687 4.66875 20.85C5.85 20.8313 6.69375 21.9375 6.975 22.3875C8.325 24.6562 10.4812 24.0187 11.3438 23.625C11.475 22.65 11.8688 21.9937 12.3 21.6187C8.9625 21.2437 5.475 19.95 5.475 14.2125C5.475 12.5813 6.05625 11.2313 7.0125 10.1813C6.8625 9.80625 6.3375 8.26875 7.1625 6.20625C7.1625 6.20625 8.41875 5.8125 11.2875 7.74375C12.4875 7.40625 13.7625 7.2375 15.0375 7.2375C16.3125 7.2375 17.5875 7.40625 18.7875 7.74375C21.6562 5.79375 22.9125 6.20625 22.9125 6.20625C23.7375 8.26875 23.2125 9.80625 23.0625 10.1813C24.0188 11.2313 24.6 12.5625 24.6 14.2125C24.6 19.9688 21.0938 21.2437 17.7563 21.6187C18.3 22.0875 18.7688 22.9875 18.7688 24.3937C18.7688 26.4 18.75 28.0125 18.75 28.5188C18.75 28.9125 19.0312 29.3813 19.7812 29.2313C22.759 28.2259 25.3465 26.3121 27.1796 23.7592C29.0127 21.2063 29.9991 18.1429 30 15C30 6.7125 23.2875 0 15 0Z"
+                        />
+                      </svg>
+
+                      View Code
+                    </a>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="image">
+                    <picture><source srcset="img/portfolio.webp" type="image/webp"><img src="img/portfolio.png" alt="" /></picture>
+                  </div>
+                  <h5>Портфоліо розробника</h5>
+                  <p>
+                    This is sample project description random things are here in
+                    description This is sample project lorem ipsum generator for
+                    dummy content
+                  </p>
+                  <p class="stack">
+                    <b>Tech stack : </b>HTML, JavaScript, SASS
+                  </p>
+                  <div class="git-links">
+                    <a
+                      href="https://kirill176.github.io/labPract/"
+                      target="_blank"
+                    >
+                      <svg
+                        width="20"
+                        height="20"
+                        viewBox="0 0 20 20"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M11.2864 8.71333C10.6038 8.03103 9.67822 7.64774 8.71309 7.64774C7.74797 7.64774 6.82235 8.03103 6.13976 8.71333L3.56559 11.2867C2.88299 11.9693 2.49951 12.8951 2.49951 13.8604C2.49951 14.8258 2.88299 15.7516 3.56559 16.4342C4.24819 17.1168 5.174 17.5002 6.13934 17.5002C7.10469 17.5002 8.03049 17.1168 8.71309 16.4342L9.99976 15.1475"
+                          stroke-width="1.66667"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M8.71289 11.2867C9.39548 11.969 10.3211 12.3523 11.2862 12.3523C12.2513 12.3523 13.177 11.969 13.8596 11.2867L16.4337 8.71334C17.1163 8.03074 17.4998 7.10493 17.4998 6.13959C17.4998 5.17424 17.1163 4.24844 16.4337 3.56584C15.7511 2.88324 14.8253 2.49976 13.86 2.49976C12.8946 2.49976 11.9688 2.88324 11.2862 3.56584L9.99956 4.8525"
+                          stroke-width="1.66667"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                      LivePreview
+                    </a>
+                    <a
+                      href="https://github.com/kirill176/labPract"
+                      target="_blank"
+                    >
+                      <svg
+                        class="git-svg"
+                        width="30"
+                        height="30"
+                        viewBox="0 0 30 30"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M15 0C6.7125 0 0 6.7125 0 15C0 21.6375 4.29375 27.2437 10.2563 29.2313C11.0063 29.3625 11.2875 28.9125 11.2875 28.5188C11.2875 28.1625 11.2688 26.9813 11.2688 25.725C7.5 26.4188 6.525 24.8062 6.225 23.9625C6.05625 23.5312 5.325 22.2 4.6875 21.8438C4.1625 21.5625 3.4125 20.8687 4.66875 20.85C5.85 20.8313 6.69375 21.9375 6.975 22.3875C8.325 24.6562 10.4812 24.0187 11.3438 23.625C11.475 22.65 11.8688 21.9937 12.3 21.6187C8.9625 21.2437 5.475 19.95 5.475 14.2125C5.475 12.5813 6.05625 11.2313 7.0125 10.1813C6.8625 9.80625 6.3375 8.26875 7.1625 6.20625C7.1625 6.20625 8.41875 5.8125 11.2875 7.74375C12.4875 7.40625 13.7625 7.2375 15.0375 7.2375C16.3125 7.2375 17.5875 7.40625 18.7875 7.74375C21.6562 5.79375 22.9125 6.20625 22.9125 6.20625C23.7375 8.26875 23.2125 9.80625 23.0625 10.1813C24.0188 11.2313 24.6 12.5625 24.6 14.2125C24.6 19.9688 21.0938 21.2437 17.7563 21.6187C18.3 22.0875 18.7688 22.9875 18.7688 24.3937C18.7688 26.4 18.75 28.0125 18.75 28.5188C18.75 28.9125 19.0312 29.3813 19.7812 29.2313C22.759 28.2259 25.3465 26.3121 27.1796 23.7592C29.0127 21.2063 29.9991 18.1429 30 15C30 6.7125 23.2875 0 15 0Z"
+                        />
+                      </svg>
+
+                      View Code
+                    </a>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="image">
+                    <picture><source srcset="img/food.webp" type="image/webp"><img src="img/food.png" alt="" /></picture>
+                  </div>
+                  <h5>Лендінг для закладу</h5>
+                  <p>
+                    This is sample project description random things are here in
+                    description This is sample project lorem ipsum generator for
+                    dummy content
+                  </p>
+                  <p class="stack">
+                    <b>Tech stack : </b>HTML, JavaScript, SASS
+                  </p>
+                  <div class="git-links">
+                    <a
+                      href="https://kirill176.github.io/foods/"
+                      target="_blank"
+                    >
+                      <svg
+                        width="20"
+                        height="20"
+                        viewBox="0 0 20 20"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M11.2864 8.71333C10.6038 8.03103 9.67822 7.64774 8.71309 7.64774C7.74797 7.64774 6.82235 8.03103 6.13976 8.71333L3.56559 11.2867C2.88299 11.9693 2.49951 12.8951 2.49951 13.8604C2.49951 14.8258 2.88299 15.7516 3.56559 16.4342C4.24819 17.1168 5.174 17.5002 6.13934 17.5002C7.10469 17.5002 8.03049 17.1168 8.71309 16.4342L9.99976 15.1475"
+                          stroke-width="1.66667"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M8.71289 11.2867C9.39548 11.969 10.3211 12.3523 11.2862 12.3523C12.2513 12.3523 13.177 11.969 13.8596 11.2867L16.4337 8.71334C17.1163 8.03074 17.4998 7.10493 17.4998 6.13959C17.4998 5.17424 17.1163 4.24844 16.4337 3.56584C15.7511 2.88324 14.8253 2.49976 13.86 2.49976C12.8946 2.49976 11.9688 2.88324 11.2862 3.56584L9.99956 4.8525"
+                          stroke-width="1.66667"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                      LivePreview
+                    </a>
+                    <a
+                      href="https://github.com/kirill176/foods"
+                      target="_blank"
+                    >
+                      <svg
+                        class="git-svg"
+                        width="30"
+                        height="30"
+                        viewBox="0 0 30 30"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M15 0C6.7125 0 0 6.7125 0 15C0 21.6375 4.29375 27.2437 10.2563 29.2313C11.0063 29.3625 11.2875 28.9125 11.2875 28.5188C11.2875 28.1625 11.2688 26.9813 11.2688 25.725C7.5 26.4188 6.525 24.8062 6.225 23.9625C6.05625 23.5312 5.325 22.2 4.6875 21.8438C4.1625 21.5625 3.4125 20.8687 4.66875 20.85C5.85 20.8313 6.69375 21.9375 6.975 22.3875C8.325 24.6562 10.4812 24.0187 11.3438 23.625C11.475 22.65 11.8688 21.9937 12.3 21.6187C8.9625 21.2437 5.475 19.95 5.475 14.2125C5.475 12.5813 6.05625 11.2313 7.0125 10.1813C6.8625 9.80625 6.3375 8.26875 7.1625 6.20625C7.1625 6.20625 8.41875 5.8125 11.2875 7.74375C12.4875 7.40625 13.7625 7.2375 15.0375 7.2375C16.3125 7.2375 17.5875 7.40625 18.7875 7.74375C21.6562 5.79375 22.9125 6.20625 22.9125 6.20625C23.7375 8.26875 23.2125 9.80625 23.0625 10.1813C24.0188 11.2313 24.6 12.5625 24.6 14.2125C24.6 19.9688 21.0938 21.2437 17.7563 21.6187C18.3 22.0875 18.7688 22.9875 18.7688 24.3937C18.7688 26.4 18.75 28.0125 18.75 28.5188C18.75 28.9125 19.0312 29.3813 19.7812 29.2313C22.759 28.2259 25.3465 26.3121 27.1796 23.7592C29.0127 21.2063 29.9991 18.1429 30 15C30 6.7125 23.2875 0 15 0Z"
+                        />
+                      </svg>
+
+                      View Code
+                    </a>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="image">
+                    <picture><source srcset="img/music.webp" type="image/webp"><img src="img/music.png" alt="" /></picture>
+                  </div>
+                  <h5>Лендінг для музикального проекту</h5>
+                  <p>
+                    This is sample project description random things are here in
+                    description This is sample project lorem ipsum generator for
+                    dummy content
+                  </p>
+                  <p class="stack"><b>Tech stack : </b>HTML, SASS</p>
+                  <div class="git-links">
+                    <a href="https://kirill176.github.io/music/" target="_blank">
+                      <svg
+                        width="20"
+                        height="20"
+                        viewBox="0 0 20 20"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M11.2864 8.71333C10.6038 8.03103 9.67822 7.64774 8.71309 7.64774C7.74797 7.64774 6.82235 8.03103 6.13976 8.71333L3.56559 11.2867C2.88299 11.9693 2.49951 12.8951 2.49951 13.8604C2.49951 14.8258 2.88299 15.7516 3.56559 16.4342C4.24819 17.1168 5.174 17.5002 6.13934 17.5002C7.10469 17.5002 8.03049 17.1168 8.71309 16.4342L9.99976 15.1475"
+                          stroke-width="1.66667"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M8.71289 11.2867C9.39548 11.969 10.3211 12.3523 11.2862 12.3523C12.2513 12.3523 13.177 11.969 13.8596 11.2867L16.4337 8.71334C17.1163 8.03074 17.4998 7.10493 17.4998 6.13959C17.4998 5.17424 17.1163 4.24844 16.4337 3.56584C15.7511 2.88324 14.8253 2.49976 13.86 2.49976C12.8946 2.49976 11.9688 2.88324 11.2862 3.56584L9.99956 4.8525"
+                          stroke-width="1.66667"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                      LivePreview
+                    </a>
+                    <a
+                      href="https://github.com/kirill176/music"
+                      target="_blank"
+                    >
+                      <svg
+                        class="git-svg"
+                        width="30"
+                        height="30"
+                        viewBox="0 0 30 30"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M15 0C6.7125 0 0 6.7125 0 15C0 21.6375 4.29375 27.2437 10.2563 29.2313C11.0063 29.3625 11.2875 28.9125 11.2875 28.5188C11.2875 28.1625 11.2688 26.9813 11.2688 25.725C7.5 26.4188 6.525 24.8062 6.225 23.9625C6.05625 23.5312 5.325 22.2 4.6875 21.8438C4.1625 21.5625 3.4125 20.8687 4.66875 20.85C5.85 20.8313 6.69375 21.9375 6.975 22.3875C8.325 24.6562 10.4812 24.0187 11.3438 23.625C11.475 22.65 11.8688 21.9937 12.3 21.6187C8.9625 21.2437 5.475 19.95 5.475 14.2125C5.475 12.5813 6.05625 11.2313 7.0125 10.1813C6.8625 9.80625 6.3375 8.26875 7.1625 6.20625C7.1625 6.20625 8.41875 5.8125 11.2875 7.74375C12.4875 7.40625 13.7625 7.2375 15.0375 7.2375C16.3125 7.2375 17.5875 7.40625 18.7875 7.74375C21.6562 5.79375 22.9125 6.20625 22.9125 6.20625C23.7375 8.26875 23.2125 9.80625 23.0625 10.1813C24.0188 11.2313 24.6 12.5625 24.6 14.2125C24.6 19.9688 21.0938 21.2437 17.7563 21.6187C18.3 22.0875 18.7688 22.9875 18.7688 24.3937C18.7688 26.4 18.75 28.0125 18.75 28.5188C18.75 28.9125 19.0312 29.3813 19.7812 29.2313C22.759 28.2259 25.3465 26.3121 27.1796 23.7592C29.0127 21.2063 29.9991 18.1429 30 15C30 6.7125 23.2875 0 15 0Z"
+                        />
+                      </svg>
+
+                      View Code
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="contacts">
+            <div class="contacts__line">
+              <picture><source srcset="img/contact.webp" type="image/webp"><img src="img/contact.png" alt="" class="contact" /></picture>
+              <div class="line"></div>
+              <div class="code"><></div>
+            </div>
+            <div class="contacts__content">
+              <div class="cantacts__title">
+                <h2>Контакти</h2>
+              </div>
+              <div class="contacts__cards">
+                <a href="https://t.me/ckronicc" target="_blank">
+                  <div class="card">
+                    <picture><source srcset="img/telegram.webp" type="image/webp"><img src="img/telegram.png" alt="" /></picture>
+                    <p>Telegram</p>
+                  </div>
+                </a>
+                <a href="viber://chat?number=%2B380660648027" target="_blank">
+                  <div class="card">
+                    <picture><source srcset="img/viber.webp" type="image/webp"><img src="img/viber.png" alt="" /></picture>
+                    <p>Viber</p>
+                  </div>
+                </a>
+                <a
+                  href="www.linkedin.com/in/кирил-сєдих-0b49612a9"
+                  target="_blank"
+                >
+                  <div class="card">
+                    <picture><source srcset="img/linkedin.webp" type="image/webp"><img src="img/linkedin.png" alt="" /></picture>
+                    <p>LinkedIn</p>
+                  </div>
+                </a>
+                <a
+                  href="https://github.com/kirill176?tab=overview&from=2024-01-01&to=2024-01-25"
+                  target="_blank"
+                >
+                  <div class="card">
+                    <picture><source srcset="img/github.webp" type="image/webp"><img src="img/github.png" alt="" /></picture>
+                    <p>GitHub</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+    <div class="footer__content">
+        <div class="footer__title">
+            <h6>Kyryll Siedykh</h6>
+            <p>National Aerospace University - 'Kharkiv Aviation Institute'​</p>
+        </div>
+        <div class="footer__links">
+            <div class="list">
+                <li>
+                    <a href="https://t.me/ckronicc" target="_blank">
+                        <picture><source srcset="img/telegramg.webp" type="image/webp"><img src="img/telegramg.png" alt=""></picture>
+                    </a>
+                </li>
+                <li>
+                    <a href="viber://chat?number=%2B380660648027" target="_blank">
+                        <picture><source srcset="img/viberg.webp" type="image/webp"><img src="img/viberg.png" alt=""></picture>
+                    </a>
+                </li>
+                <li>
+                    <a href="www.linkedin.com/in/кирил-сєдих-0b49612a9" target="_blank">
+                        <picture><source srcset="img/linkeding.webp" type="image/webp"><img src="img/linkeding.png" alt=""></picture>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/kirill176?tab=overview&from=2024-01-01&to=2024-01-25" target="_blank">
+                        <picture><source srcset="img/githubg.webp" type="image/webp"><img src="img/githubg.png" alt=""></picture>
+                    </a>
+                </li>
+            </div>
+        </div>
     </div>
-    <div class="information">
-      <div class="information__name">
-        <h2>Технології</h2>
-      </div>
-      <div class="information__img">
-        <div class="information__img__item">
-          <img src="img/html.png" alt="">
-          <p>HTML5</p>
-        </div>
-        <div class="information__img__item">
-          <img src="img/css.png" alt="">
-          <p>CSS3</p>
-        </div>
-        <div class="information__img__item">
-          <img src="img/js.png" alt="">
-          <p>Java Script</p>
-        </div>
-      </div>
-      <div class="information__text">        
-      </div>
+    <p class="footer__text">
+        © 2024
+    </p>
+</footer>
+      <script src="js/app.min.js?_v=20240219014137"></script>
     </div>
-    <div class="projects">
-      <div class="projects__name">
-        <p>Мої проекти</p>
-      </div>
-      <div class="projects__item">
-        <div class="items">
-          <a href="">
-            <img src="img/music.png" alt="">
-            <p>20.11.2023</p>
-          </a>
-          <a href="">
-            <img src="img/music.png" alt="">
-            <p>20.11.2023</p>
-          </a>
-          <a href="">
-            <img src="img/music.png" alt="">
-            <p>20.11.2023</p>
-          </a>
-
-        </div>
-        <div class="text">
-
-
-
-        </div>
-      </div>
-    </div>
-  </div>
-</body>
-<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
-
-<script src="js/main.js"></script>
-
+  </body>
 </html>
