@@ -713,7 +713,7 @@ body h2 {
   }
 
   .container {
-    max-width: 860px;
+    max-width: 910px;
   }
 
   .tehnologies__cards {
@@ -745,7 +745,7 @@ body h2 {
   }
 
   .container {
-    max-width: 748px;
+    max-width: 798px;
   }
 
   .about h2 {
@@ -828,28 +828,32 @@ body h2 {
   }
 
   .container {
-    max-width: 640px;
+    max-width: 690px;
     margin-top: 150px;
   }
 
   .tehnologies__cards {
-    -ms-grid-columns: (200px)[2];
-    grid-template-columns: repeat(2, 200px);
+    -ms-grid-columns: (45%)[2];
+    grid-template-columns: repeat(2, 45%);
     gap: 60px;
   }
 
+  .tehnologies__cards .card {
+    margin: auto;
+  }
+
   .tehnologies__content {
-    padding: 50px 55px;
+    padding: 50px 25px;
   }
 
   .projects__content {
-    padding: 50px 55px;
+    padding: 50px 15px;
   }
 
   .projects__cards {
-    -ms-grid-columns: (100%)[1];
-    grid-template-columns: repeat(1, 100%);
-    gap: 40px;
+    -ms-grid-columns: (285px)[2];
+    grid-template-columns: repeat(2, 285px);
+    gap: 10px;
   }
 
   .projects__cards .card {
@@ -857,13 +861,17 @@ body h2 {
   }
 
   .contacts__cards {
-    -ms-grid-columns: (200px)[2];
-    grid-template-columns: repeat(2, 200px);
+    -ms-grid-columns: (45%)[2];
+    grid-template-columns: repeat(2, 45%);
     gap: 60px;
   }
 
+  .contacts__cards .card {
+    margin: auto;
+  }
+
   .contacts__content {
-    padding: 50px 55px;
+    padding: 50px 25px;
   }
 
   .footer__content {
@@ -909,6 +917,16 @@ body h2 {
     padding: 50px 25px;
   }
 
+  .projects__cards {
+    -ms-grid-columns: (100%)[1];
+    grid-template-columns: repeat(1, 100%);
+    gap: 25px;
+  }
+
+  .projects__cards .card {
+    margin: auto;
+  }
+
   .contacts__cards {
     -ms-grid-columns: (150px)[2];
     grid-template-columns: repeat(2, 150px);
@@ -939,7 +957,7 @@ body h2 {
   }
 
   .container {
-    max-width: 320px;
+    max-width: 370px;
   }
 
   .about__content {
@@ -973,11 +991,11 @@ body h2 {
   }
 
   .tehnologies__content {
-    padding: 50px 10px;
+    padding: 50px 5px;
   }
 
   .projects__content {
-    padding: 50px 10px;
+    padding: 50px 5px;
   }
 
   .projects__cards .card h5 {
@@ -994,6 +1012,6 @@ body h2 {
   }
 
   .contacts__content {
-    padding: 50px 10px;
+    padding: 50px 5px;
   }
 }
