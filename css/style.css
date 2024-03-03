@@ -459,6 +459,7 @@ body h2 {
 }
 
 .projects__cards .card p {
+  min-height: 150px;
   color: rgba(255, 255, 255, 0.7);
   font-size: 16px;
   padding: 15px 22px;
@@ -467,7 +468,7 @@ body h2 {
 }
 
 .projects__cards .card .stack {
-  height: 80px;
+  min-height: 80px;
   color: #218bff;
   font-size: 16px;
   font-weight: 300;
