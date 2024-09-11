@@ -1,0 +1,378 @@
+@media (max-width: 1250px) {
+  .container {
+    max-width: 1004px;
+  }
+
+  .about {
+    &__content {
+      padding: 50px 55px;
+      width: 100%;
+    }
+
+    &__image {
+      max-width: 350px;
+    }
+  }
+
+  .tehnologies {
+    &__cards {
+      grid-template-columns: repeat(4, 190px);
+      gap: 40px;
+    }
+    &__content {
+      padding: 50px 55px;
+    }
+  }
+
+  .projects {
+    &__content {
+      padding: 50px 55px;
+    }
+    &__cards {
+      grid-template-columns: repeat(3, 284px);
+      gap: 20px;
+    }
+  }
+
+  .contacts {
+    &__content {
+      padding: 50px 55px;
+    }
+    &__cards {
+      grid-template-columns: repeat(4, 190px);
+      gap: 40px;
+    }
+  }
+
+  .footer {
+    &__content {
+      max-width: 1004px;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .header {
+    &__link {
+      margin-left: 30px;
+    }
+  }
+
+  .container {
+    max-width: 910px;
+  }
+
+  .tehnologies {
+    &__cards {
+      grid-template-columns: repeat(3, 200px);
+      gap: 70px;
+    }
+  }
+
+  .projects {
+    &__cards {
+      grid-template-columns: repeat(2, 300px);
+      gap: 120px;
+    }
+  }
+
+  .contacts {
+    &__cards {
+      grid-template-columns: repeat(3, 200px);
+      gap: 70px;
+    }
+  }
+
+  .footer {
+    &__content {
+      max-width: 860px;
+    }
+  }
+}
+
+@media (max-width: 880px) {
+  .header {
+    &__link {
+      margin-left: 10px;
+    }
+  }
+
+  .container {
+    max-width: 798px;
+  }
+
+  .about {
+    h2 {
+      font-size: 48px;
+    }
+
+    p {
+      font-size: 20px;
+    }
+  }
+
+  .tehnologies {
+    &__cards {
+      grid-template-columns: repeat(3, 190px);
+      gap: 45px;
+    }
+
+    &__content {
+      padding: 50px 25px;
+    }
+  }
+
+  .projects {
+    &__content {
+      padding: 50px 25px;
+    }
+    &__cards {
+      grid-template-columns: repeat(2, 300px);
+      gap: 70px;
+    }
+  }
+
+  .contacts {
+    &__cards {
+      grid-template-columns: repeat(3, 190px);
+      gap: 45px;
+    }
+
+    &__content {
+      padding: 50px 25px;
+    }
+  }
+
+  .footer {
+    &__content {
+      max-width: 748px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    &__menu {
+      display: none;
+    }
+
+    &__logo {
+      margin: auto;
+    }
+  }
+
+  .about {
+    width: 100%;
+    &__content {
+      width: 100%;
+      flex-direction: column-reverse;
+      align-items: center;
+      h2 {
+        text-align: center;
+      }
+
+      p {
+        padding: 15px 0px;
+      }
+    }
+    &__image {
+      max-width: 300px;
+    }
+  }
+
+  .container {
+    max-width: 690px;
+    margin-top: 150px;
+  }
+
+  .tehnologies {
+    &__cards {
+      grid-template-columns: repeat(2, 45%);
+      gap: 60px;
+      .card{
+        margin: auto;
+      }
+    }
+
+    &__content {
+      padding: 50px 25px;
+    }
+  }
+
+  .projects {
+    &__content {
+      padding: 50px 15px;
+    }
+    &__cards {
+      grid-template-columns: repeat(2, 285px);
+      gap: 10px;
+      .card {
+        margin: auto;
+      }
+    }
+  }
+
+  .contacts {
+    &__cards {
+      grid-template-columns: repeat(2, 45%);
+      gap: 60px;
+      .card{
+        margin: auto;
+      }
+    }
+
+    &__content {
+      padding: 50px 25px;
+    }
+  }
+
+  .footer {
+    &__content {
+      max-width: 640px;
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  html,
+  body {
+    h2 {
+      font-size: 45px;
+    }
+  }
+
+  .container {
+    margin-top: 100px;
+    max-width: 480px;
+  }
+
+  .tehnologies {
+    &__cards {
+      grid-template-columns: repeat(2, 150px);
+      gap: 40px;
+      .card {
+        margin: auto;
+        padding: 20px;
+        &__image {
+          height: 120px;
+        }
+
+        p {
+          font-size: 18px;
+        }
+      }
+    }
+
+    &__content {
+      padding: 50px 25px;
+    }
+  }
+
+  .projects {
+    &__content {
+      padding: 50px 25px;
+    }
+    &__cards {
+      grid-template-columns: repeat(1, 100%);
+      gap: 25px;
+      .card {
+        margin: auto;
+      }
+    }
+  }
+
+  .contacts {
+    &__cards {
+      grid-template-columns: repeat(2, 150px);
+      gap: 40px;
+    }
+
+    &__content {
+      padding: 50px 25px;
+    }
+  }
+
+  .footer {
+    &__content {
+      max-width: 480px;
+      justify-content: center;
+      text-align: center;
+    }
+    &__links {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  html,
+  body {
+    h2 {
+      font-size: 36px;
+    }
+  }
+
+  .container {
+    max-width: 370px;
+  }
+  .about {
+    &__content {
+      padding: 50px 20px;
+      h2 {
+        font-size: 40px;
+      }
+
+      p {
+        padding: 0px;
+      }
+    }
+
+    &__image {
+      max-width: 200px;
+    }
+  }
+  .tehnologies {
+    &__cards {
+      grid-template-columns: repeat(1, 100%);
+      .card {
+        margin: auto;
+        padding: 30px;
+        &__image {
+          height: 150px;
+        }
+      }
+    }
+
+    &__content {
+      padding: 50px 5px;
+    }
+  }
+
+  .projects {
+    &__content {
+      padding: 50px 5px;
+    }
+
+    &__cards{
+        .card{
+            h5{
+                height: 100px;
+            }
+        }
+    }
+  }
+
+  .contacts {
+    &__cards {
+      grid-template-columns: repeat(1, 100%);
+
+      .card{
+        margin: auto;
+      }
+    }
+
+    &__content {
+      padding: 50px 5px;
+    }
+  }
+}

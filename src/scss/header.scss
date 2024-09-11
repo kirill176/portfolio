@@ -1,0 +1,81 @@
+.header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    box-shadow: 0 0 5px black;
+    background-color: #0d1117a2;
+    backdrop-filter: blur(15px);
+    padding: 0px 25px;
+
+    
+
+    .container{
+        max-width: 1250px;
+        margin: auto;
+    }
+
+    &__body{
+        display: flex;
+        justify-content: space-between;
+        padding: 35px 0px;
+        align-items: center;
+    }
+
+    &__logo{
+            color: white;
+            text-transform: uppercase;
+            font-size: 25px;
+            font-weight: 700;
+            transition: all 0.5s ease 0s;
+
+            &:hover{
+                filter: drop-shadow(0 0 5px white);
+            }
+    }
+
+    &__menu{
+
+    }
+
+    &__list{
+        display: flex;
+    }
+
+    &__link{
+        position: relative;
+        color: white;
+        margin-left: 50px;
+        text-transform: uppercase;
+        font-size: 15px;
+        letter-spacing: 2px;
+        font-weight: 700;
+        transition: all 0.5s ease 0s;
+        &::before{
+            content: '';
+            position: absolute;
+            left: -1px;
+            bottom: -5px;
+            width: 0%;
+            height: 2px;
+            border-radius: 2px;
+            background-color: #218bff;
+            transition: all 0.5s ease 0s;
+        }
+
+        &:hover{
+            color: #218bff;
+            transition: all 0.5s ease 0s;
+
+            &::before{
+                width: 100%;
+            }
+            
+        }
+    }
+
+    .active{
+        color: #218bff;
+    }
+}

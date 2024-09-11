@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  @@include('html/head.html',{ "title":"Portfolio" })
+
+  <body>
+    <div class="wrapper">
+      @@include('html/header.html',{})
+      <main class="main">
+        <div class="container">
+          <div class="about">
+            <div class="about__line">
+              <div class="circle"></div>
+              <div class="line"></div>
+            </div>
+            <div class="about__content">
+              <div class="about__text">
+                <h2 class="headname">Я WEB Розробник</h2>
+                <p>
+                  Мене звати Кирил Сєдих, я вивчаю та впрактикую у Front-end
+                  розробці близько 2 років та продовжую удосконалювати свої
+                  навички та вивчати нові технології.
+                </p>
+              </div>
+              <div class="about__image">
+                <img src="img/my.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="tehnologies">
+            <div class="tehnologies__line">
+              <div class="code"><></div>
+              <div class="line"></div>
+            </div>
+            <div class="tehnologies__content">
+              <div class="tehnologies__title">
+                <h2>Технології</h2>
+              </div>
+              <div class="tehnologies__cards"></div>
+            </div>
+          </div>
+          <div class="projects">
+            <div class="projects__line">
+              <div class="img">
+                <img src="img/work.png" alt="" class="work" />
+              </div>
+              <div class="line"></div>
+            </div>
+            <div class="projects__content">
+              <div class="projects__title">
+                <h2>Мої проекти</h2>
+              </div>
+              <div class="projects__cards"></div>
+            </div>
+          </div>
+          <div class="contacts">
+            <div class="contacts__line">
+              <img src="img/contact.png" alt="" class="contact" />
+              <div class="line"></div>
+              <div class="code"><></div>
+            </div>
+            <div class="contacts__content">
+              <div class="cantacts__title">
+                <h2>Контакти</h2>
+              </div>
+              <div class="contacts__cards">
+                <a href="https://t.me/ckronicc" target="_blank">
+                  <div class="card">
+                    <img src="img/telegram.png" alt="" />
+                    <p>Telegram</p>
+                  </div>
+                </a>
+                <a href="viber://chat?number=%2B380660648027" target="_blank">
+                  <div class="card">
+                    <img src="img/viber.png" alt="" />
+                    <p>Viber</p>
+                  </div>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/kyryl-siedykh/"
+                  target="_blank"
+                >
+                  <div class="card">
+                    <img src="img/linkedin.png" alt="" />
+                    <p>LinkedIn</p>
+                  </div>
+                </a>
+                <a
+                  href="https://github.com/kirill176?tab=overview&from=2024-01-01&to=2024-01-25"
+                  target="_blank"
+                >
+                  <div class="card">
+                    <img src="img/github.png" alt="" />
+                    <p>GitHub</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      @@include('html/footer.html',{})
+      <script src="js/app.min.js"></script>
+    </div>
+  </body>
+</html>
